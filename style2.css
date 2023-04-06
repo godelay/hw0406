@@ -14,7 +14,7 @@ a:link, a:visited {
 }
 
 .container{
-    width: 960px;
+    width: 1100px;
     margin:0 auto;
 }
 
@@ -31,7 +31,7 @@ a:link, a:visited {
     display: flex;
     justify-content: flex-end;
     align-content: center;
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 .english {
@@ -60,14 +60,14 @@ a:link, a:visited {
     line-height:81px;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 
 .nav2 .container2 {
-   width:960px;
+   width: 1100px;px;
    display: flex;
-   justify-content: space-between;
-   align-content: center;
+   justify-content: space-around;
 }
 
 .learnus {
@@ -75,17 +75,15 @@ a:link, a:visited {
     font-size:30px;
     margin: 10;
     color:white;
-    align-content: center;
 }
 
-.service {
+.ul-menu {
     display: flex;
     font-size:20px;
-    margin: 50;
+    margin: 10;
     color:white;
-    align-content: center;
+    list-style: none;
+    margin-left:0px;
 }
 
-.service .ul-menu {
-    margin-left:45px;
-}
+
