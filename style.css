@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;;
+}
+
+a:link, a:visited {
+    text-decoration:none;
+    color: black;
+}
+
+.container{
+    width: 960px;
+    margin:0 auto;
+}
+
+
+/*navigation bar*/
+
+.nav1 {
+    height: 50px;
+    background-color: #183a6c;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    color:white;
+}
+
+.english {
+    display: flex;
+    font-size:15px;
+    margin: 30;
+    color:white;
+    align-content: center;
+}
+
+.signup, .login {
+    display: flex;
+    font-size:15px;
+    margin-left: 30px;
+    color:white;
+    align-content: center;
+}
+ 
+
+/*learnus*/
+
+.nav2 {
+    height: 100px;
+    background-color: #0a192f;
+    color: white;
+    line-height:81px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav2 .container2 {
+   width:960px;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+}
+
+.learnus {
+    display: flex;
+    font-size:30px;
+    margin: 10;
+    color:white;
+    align-content: center;
+}
+
+.service {
+    display: flex;
+    font-size:20px;
+    margin: 50;
+    color:white;
+    align-content: center;
+}
+
+.service .ul-menu {
+    margin-left:45px;
+}
